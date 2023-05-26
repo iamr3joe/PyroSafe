@@ -7,4 +7,4 @@ inovativno rješenje koje će prepoznati (detektovati) početak požara i pruži
 i drugima, najbitnije informacije i alarmirati sve faktore kako bi se spriječila šteta i
 gubitak života.
 # Šematski prikaz
-<img width="480" src="https://i.imgur.com/dAahGvd.png">
+<img width="680" src="https://i.imgur.com/dAahGvd.png">
