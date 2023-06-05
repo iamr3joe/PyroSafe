@@ -29,4 +29,4 @@ gubitak života.
   5.  Povežite jumpere za napajanje sa Arduina na breadboard ili protoboard kako biste omogućili napajanje sistema.
 
 # Šematski prikaz
-<img width="1000" src="https://imgur.com/RvxNfhi">
+<img src="https://i.imgur.com/RvxNfhi.png">
