@@ -3,12 +3,12 @@
 #include <WiFiClient.h>
 #include <UrlEncode.h>
 
-//WIFI
-const char* ssid = "PyroSafe";
-const char* password = "pyrosafe1";
+// WiFi postavke za spajanje
+const char* ssid = "PyroSafe"; // Naziv mreže
+const char* password = "pyrosafe1"; // Šifra
 
-String brojtelefona = "38763001143";
-String apiKey = "5236378";
+String brojtelefona = "38762000000"; // Broj telefona za notifikacije
+String apiKey = "12345678"; // API ključ bota
 
 void posaljiPoruku(String poruka){
 
