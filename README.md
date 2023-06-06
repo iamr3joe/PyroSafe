@@ -27,6 +27,19 @@ gubitak života.
   3.  Povežite senzor dima, senzor plamena i temperaturni senzor sa odgovarajućim ulazima na Arduino mikrokontroleru.
   4.  Povežite buzzere i LED diode sa odgovarajućim digitalnim pinovima na Arduino mikrokontroleru.
   5.  Povežite jumpere za napajanje sa Arduina na breadboard ili protoboard kako biste omogućili napajanje sistema.
+# Konfiguracija
 
+1.  Preuzmite Arduino razvojno okruženje (IDE) sa https://www.arduino.cc/en/software i instalirajte ga na računaru.
+2.  Povežite Arduino Uno mikrokontroler sa računarom koristeći USB kabl.
+3.  Otvorite Arduino IDE i otvorite projekat PyroSafe.
+4.  U meniju Alatke (Tools), izaberite odgovarajući model Arduino mikrokontrolera.
+5.  Izaberite pravilan serijski port za komunikaciju sa Arduino mikrokontrolerom.
+6.  Uverite se da su sve potrebne biblioteke instalirane. Ako nisu, instalirajte ih iz menija Skeč (Sketch) > Uključi biblioteku (Include Library) > Biblioteke za upotrebu.
+7.  U projektu PyroSafe otvorite datoteku config.h i konfigurišite sledeće parametre:
+        SSID - Naziv WiFi mreže na koju će se ESP8266 WiFi modul povezati.
+        Password - Lozinka za pristup WiFi mreži.
+        ServerAddress - IP adresa ili domen udaljenog servera na koji će se slati obaveštenja.
+        ServerPort - Port za komunikaciju sa udaljenim serverom.
+ 8. Sačuvajte promene i učitajte kod na Arduino mikrokontroler pritiskom na dugme Učitaj (Upload).
 # Šematski prikaz
 <img src="https://i.imgur.com/RvxNfhi.png">
