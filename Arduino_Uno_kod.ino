@@ -50,7 +50,7 @@ void setup() {
   pinMode(uzbuna, INPUT_PULLUP);
   Serial.begin(9600);
   sensors.begin();
-  // Ukljucit LCD
+  // Ukljuciti LCD
   lcd.init();
   lcd.backlight();
   // Znak stepena
@@ -110,7 +110,7 @@ void loop() {
   Serial.print("plamenPin vrijednost: ");
   Serial.println(senzorPlamena);
   
-  if(tempC > 30)
+  if(tempC > 35) // Temperatura postavljena na 35 stepeni radi lakšeg testiranja senzora
   {
     digitalWrite(led1, HIGH);
     tone(buzzer1, 500);
@@ -147,7 +147,7 @@ void loop() {
     lcd.print("EVAKUISI");
   }
   
-  if(tempC <= 30 && senzorPlamena == LOW && gasSenzor <= senzorThresh)
+  if(tempC <= 35 && senzorPlamena == LOW && gasSenzor <= senzorThresh)
   {
     digitalWrite(led1, LOW);
     digitalWrite(led2, LOW);
