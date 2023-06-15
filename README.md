@@ -47,6 +47,5 @@ gubitak života.
 
 # Video prezentacija 
 
-https://github.com/iamr3joe/PyroSafe/assets/83397289/0d7572ab-5fdc-4b5b-949c-e63dd4619aa3
-
+https://user-images.githubusercontent.com/83397289/246179442-63b4a706-aac2-4b6b-97c5-77f1d1f4df91.mp4
 
