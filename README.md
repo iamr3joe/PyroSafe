@@ -36,10 +36,10 @@ gubitak života.
 5.  Izaberite pravilan serijski port za komunikaciju sa Arduino mikrokontrolerom.
 6.  Uvjerite se da su sve potrebne biblioteke instalirane. Ako nisu, instalirajte ih iz menija Skeč (Sketch) > Uključi biblioteku (Include Library) > Biblioteke za upotrebu.
 8.  U projektu PyroSafe otvorite fajl ESP8266_kod.ino i konfigurišite sljedeće parametre:
-        ssid - naziv WiFi mreže na koju će se ESP8266 WiFi modul povezati.
-        password - lozinka za pristup WiFi mreži.
-        brojtelefona - vaš broj telefona na koji će se slati obavještenja.
-        apiKey - API ključ CallMe bota
+       * ssid - naziv WiFi mreže na koju će se ESP8266 WiFi modul povezati.
+       * password - lozinka za pristup WiFi mreži.
+       * brojtelefona - vaš broj telefona na koji će se slati obavještenja.
+       * apiKey - API ključ CallMe bota
 9. Ponovite korake 4,5 i 6 za ESP8266 Wifi modul
 10. Sačuvajte promjene i učitajte zasebne kodove na Arduino i ESP modul pritiskom na dugme Učitaj (Upload).
 # Šematski prikaz
